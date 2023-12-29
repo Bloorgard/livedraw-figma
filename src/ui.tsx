@@ -4,8 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import * as ReactDOM from "react-dom/client";
 import "./ui.css";
 
-const fal_key_id = "REPLACE_ME"
-const fal_key_secret = "REPLACE_ME"
+const fal_key_id = "a908fb2e-f602-42bd-b599-1367874f8bf4"
+const fal_key_secret = "a908fb2e-f602-42bd-b599-1367874f8bf4:9279c0eb5ccdd5056f1466d3195d6f95"
 
 fal.config({
   credentials: `${fal_key_id}:${fal_key_secret}`,
